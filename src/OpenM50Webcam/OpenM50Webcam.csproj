@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>OpenM50Webcam.Program</StartupObject>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <AssemblyName>OpenM50Webcam</AssemblyName>
+    <RootNamespace>OpenM50Webcam</RootNamespace>
+    <Version>0.2.0</Version>
+    <Product>OpenM50 Webcam</Product>
+    <Company>OpenM50 Webcam contributors</Company>
+    <Copyright>MIT License</Copyright>
+    <ApplicationIcon>..\..\assets\icon.ico</ApplicationIcon>
+    <Description>Use a Canon EOS M50 as a live video source for OBS over USB (PTP live view).</Description>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- Single self-contained .exe on publish -->
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\assets\icon-256.png" Link="Assets\icon-256.png" />
+  </ItemGroup>
+
+</Project>

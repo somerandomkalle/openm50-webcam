@@ -1,0 +1,9 @@
+bin/
+obj/
+dist/
+*.user
+.vs/
+probe.jpg
+*.obj
+*.exp
+*.lib

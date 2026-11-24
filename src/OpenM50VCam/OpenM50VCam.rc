@@ -1,0 +1,32 @@
+#include <winver.h>
+
+1 ICON "..\\..\\assets\\icon.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION     0,2,0,0
+ PRODUCTVERSION  0,2,0,0
+ FILEFLAGSMASK   0x3fL
+ FILEFLAGS       0x0L
+ FILEOS          VOS_NT_WINDOWS32
+ FILETYPE        VFT_DLL
+ FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "OpenM50 Webcam contributors"
+            VALUE "FileDescription",  "OpenM50 Webcam virtual camera"
+            VALUE "FileVersion",      "0.2.0"
+            VALUE "InternalName",     "OpenM50VCam"
+            VALUE "LegalCopyright",   "MIT License"
+            VALUE "OriginalFilename", "OpenM50VCam.dll"
+            VALUE "ProductName",      "OpenM50 Webcam"
+            VALUE "ProductVersion",   "0.2.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

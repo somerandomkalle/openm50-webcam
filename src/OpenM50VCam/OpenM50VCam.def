@@ -1,0 +1,8 @@
+LIBRARY OpenM50VCam
+EXPORTS
+    DllGetClassObject           PRIVATE
+    DllCanUnloadNow             PRIVATE
+    DllRegisterServer           PRIVATE
+    DllUnregisterServer         PRIVATE
+    OpenM50_CreateVirtualCamera
+    OpenM50_RemoveVirtualCamera
